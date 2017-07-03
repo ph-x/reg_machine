@@ -6,8 +6,10 @@ command | effect
 z #i | set register i to be 0
 s #i | increase register i by 1
 j #i #j #k | if register i and j are the same, jump to the k<sub>th</sub> command
-Registers and commands are on different tapes in RM model.
+
+Registers and commands are on different tapes in RM model.  
 Each command occupies a line.
+
 ------
 ## input/output conventions:
 - When starting a register machine, the k inputs are put on register 1 to k, all other registers are set to 0.
