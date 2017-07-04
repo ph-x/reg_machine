@@ -1,0 +1,4 @@
+# test_rms\add avoid_new_line
+# test_rms\minus avoid_new_line
+test_rms\add 0 1 2
+test_rms\minus 0 0 3
